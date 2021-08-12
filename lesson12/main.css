@@ -1,0 +1,65 @@
+/*
+
+1. По тегу или селектору
+2. По классу
+3. По Айди
+
+1.Selector
+name_of_selector {
+	rule: value;
+}
+
+2. Class
+.name_of_class {
+	rule: value;
+}
+
+3. ID 
+
+#name_of_Id {
+	rule: value;
+}
+
+ */ 
+* { 
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: #6e7799;
+     }
+
+div {
+       width: 70%;
+   	   margin: 30px auto;
+       border:10px solid black;
+       padding: 60px;
+       background-color:soft purple ;
+       box-shadow: 5px 5px 10px 3px rgba(227, 58, 69, 0.7);
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+   font-size: 15pt;
+   text-align: justify;
+   margin: 20px 0;
+}
+
+h1 {
+    font-size: 42pt;
+    text-align: center;
+    color: dark violet;
+    font-family: Carmen;
+}
+
+ @font-face {
+font-family: Carmen;
+src: url(Carmen.ttf);
+ }
